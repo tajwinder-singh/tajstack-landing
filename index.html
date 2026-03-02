@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tajstack AI | AI Governance Infrastructure</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      background: #0b1220;
+      color: #e5e7eb;
+      line-height: 1.7;
+    }
+
+    .container {
+      width: 88%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 70px 0;
+    }
+
+    h1, h2 {
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 42px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      color: #cbd5e1;
+      font-size: 17px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 95px 0;
+      border-bottom: 1px solid #1f2937;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 20px auto 0;
+      font-size: 19px;
+    }
+
+    .section {
+      border-bottom: 1px solid #1f2937;
+    }
+
+    ul {
+      padding-left: 22px;
+      color: #cbd5e1;
+      font-size: 16px;
+    }
+
+    .architecture-box {
+      background: #131c2f;
+      padding: 40px;
+      border-radius: 10px;
+      margin-top: 30px;
+      border: 1px solid #273449;
+      font-weight: 500;
+      color: #e5e7eb;
+    }
+   
+    ul li {
+      margin-bottom: 10px;
+    }
+    
+    .cta {
+      text-align: center;
+      padding: 80px 0;
+    }
+
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .subtle {
+      color: #94a3b8;
+      font-size: 15px;
+    }
+
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .flow span {
+      position: relative;
+      padding: 6px 0;
+      font-size: 16px;
+    }
+    
+    .flow span::after {
+      content: " →";
+      color: #64748b;
+    }
+    
+    .flow span:last-child::after {
+      content: "";
+    }
+    
+    .final-step {
+      font-weight: 600;
+    }
+    
+    @media (max-width: 768px) {
+  
+      .flow {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .flow span::after {
+        content: "";
+      }
+  
+   }
+
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<div class="hero">
+  <div class="container">
+    <h1>AI Governance Infrastructure for High-Risk Operational Environments</h1>
+    <p>
+      Tajstack AI is a managed, confidence-gated control layer that governs when automation
+      is permitted, refused, or escalated inside enterprise production workflows.
+    </p>
+  </div>
+</div>
+
+<!-- PROBLEM -->
+
+<div class="section">
+  <div class="container">
+    <h2>Why Enterprise AI Fails in Production</h2>
+    
+    <p>
+      Most AI systems are optimized for response generation.
+      High-risk environments require structured governance before execution.
+    </p>
+    
+    <p>
+      High-risk production environments require the following controls:
+    </p>
+    
+    <ul>
+      <li>Refusal correctness under low confidence</li>
+      <li>Escalation discipline when risk thresholds are exceeded</li>
+      <li>Policy enforcement prior to automated response</li>
+      <li>Full audit traceability of every decision state</li>
+    </ul>
+    
+    <p>
+      Without governance, automation introduces financial, regulatory, and contractual exposure.
+    </p>
+    
+  </div>
+</div>
+
+<!-- ARCHITECTURE -->
+
+<div class="section">
+  <div class="container">
+    <h2>Deterministic Governance Flow</h2>
+
+    <div class="architecture-box flow">
+      <span>Structured Request Intake</span>
+      <span>Tenant-Scoped Retrieval</span>
+      <span>Confidence & Risk Scoring</span>
+      <span>Policy Boundary Evaluation</span>
+      <span class="final-step">Deterministic Governance Outcome</span>
+    </div>
+
+    <p style="margin-top: 30px;">
+      Governance outcome states:
+    </p>
+
+    <ul>
+      <li><strong>Allowed</strong> — Controlled execution permitted</li>
+      <li><strong>Refused</strong> — Terminal stop enforced</li>
+      <li><strong>Escalated</strong> — Routed to human review path</li>
+    </ul>
+
+    <p class="subtle">
+      Automation proceeds only when predefined governance thresholds are satisfied.
+    </p>
+  </div>
+</div>
+
+<!-- CAPABILITIES -->
+
+<div class="section">
+  <div class="container">
+    <h2>Production Control Capabilities</h2>
+    <ul>
+      <li>Confidence-Gated Response Authorization</li>
+      <li>Policy-Aware Escalation Enforcement</li>
+      <li>Multi-Tenant Isolation & Access Controls</li>
+      <li>Structured Audit Logging & Traceability</li>
+      <li>API-First Governance Layer Integration</li>
+      <li>AI Second-Layer Validation (AI Governing AI Systems)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- DEPLOYMENT -->
+
+<div class="section">
+  <div class="container">
+    <h2>Deployment Model</h2>
+    <p>
+      Tajstack AI is delivered as a managed control layer embedded into live enterprise systems.
+    </p>
+    <p>
+      The governance layer integrates directly into:
+    </p>
+    <ul>
+      <li>Customer support platforms</li>
+      <li>Finance and refund workflows</li>
+      <li>Internal operations decision paths</li>
+      <li>Compliance validation checkpoints</li>
+      <li>Automated execution pipelines</li>
+    </ul>
+    <p class="subtle">
+      The system operates as an API-first governance control layer embedded directly inside production workflows — not as a standalone chatbot interface.
+    </p>
+  </div>
+</div>
+
+<!-- POSITIONING -->
+
+<div class="section">
+  <div class="container">
+    <h2>Designed for Environments Where Incorrect Automation Creates Exposure</h2>
+    <p>
+      Tajstack AI is built for organizations where a single incorrect automated response
+      can create operational, financial, or regulatory impact.
+    </p>
+
+    <p>
+      In high-risk production environments, incorrect automation can result in:
+    </p>
+    
+    <ul>
+      <li>Financial exposure from unauthorized or incorrect actions</li>
+      <li>Regulatory and compliance breach risk</li>
+      <li>Contractual and policy enforcement failures</li>
+    </ul>
+    
+    <p>
+      Governance must precede scale in high-risk systems.
+    </p>
+  </div>
+</div>
+
+<!-- CTA -->
+
+<div class="cta">
+  <div class="container">
+    <h2>Production AI Requires Deterministic Governance</h2>
+    <p>
+      For enterprise integration discussions or pilot validation inquiries:
+    </p>
+    <p>
+      <a href="mailto:contact@tajstack.org">contact@tajstack.org</a>
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
